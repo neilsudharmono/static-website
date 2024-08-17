@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/image-header-no-title.css" />
+    <link rel="stylesheet" href="css/page-info.css" />
+    <link rel="stylesheet" href="css/faq.css" />
+    <link rel="stylesheet" href="css/booking-form.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="header-content">
+        <a href="index.html">
+          <img
+            id="logo-header"
+            src="img/logo-white.png"
+            alt="Peak Performance Sport Club"
+          />
+        </a>
+
+        <div
+          class="hamburger"
+          id="hamburger-menu"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="nav-menu" id="nav-menu" role="menu">
+          <ul>
+            <li><a href="latest-events.html">Our events</a></li>
+            <li><a href="tennis-article.html">Tennis</a></li>
+            <li><a href="lawn-bowl-article.html">Bowl</a></li>
+            <li><a href="function-article.html">Function</a></li>
+          </ul>
+
+          <div class="header-desktop-button">
+            <a href="login.html"><button>Sign up / Login</button></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Image Banner -->
+      <div class="about-us-banner">
+        <img src="img/function-banner.png" alt="Function Banner" />
+      </div>
+
+      <!-- Page Info -->
+      <div class="content-container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">HOME</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+              <a href="about-us.html">ABOUT</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">FUNCTION</li>
+          </ol>
+        </nav>
+
+        <h1 class="page-title">Plan you special moments with us</h1>
+
+        <p class="page-description">
+          Our function facilities at Peak Performance Sports Club provide the
+          perfect setting for a wide range of events, from corporate meetings
+          and conferences to weddings and private celebrations. With flexible
+          spaces that can be customized to suit your needs, our venue offers the
+          ideal backdrop for any occasion. Our experienced event staff is
+          dedicated to ensuring that every detail is handled with care, from
+          planning to execution, so you can focus on enjoying your special day.
+          Whether you're hosting an intimate gathering or a large event, our
+          facilities are equipped to accommodate your guests in style and
+          comfort.
+        </p>
+      </div>
+
+      <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            How can I book the function facilities for an event?
+            <img
+              src="img/down-arrow.png"
+              class="faq-arrow"
+              alt="Toggle Arrow"
+            />
+          </div>
+          <div class="faq-answer">
+            To book our function facilities, please contact our events team
+            through the club's website or call us directly. We'll assist you in
+            selecting the right space, discuss your specific needs, and help you
+            plan your event from start to finish.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            What types of events can be hosted at the club?
+            <img
+              src="img/down-arrow.png"
+              class="faq-arrow"
+              alt="Toggle Arrow"
+            />
+          </div>
+          <div class="faq-answer">
+            Our function facilities are versatile and can host a wide range of
+            events, including corporate meetings, conferences, weddings,
+            birthday parties, and other private celebrations. We offer
+            customizable options to ensure that your event is tailored to your
+            preferences.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            What is included in the function facilities rental?
+            <img
+              src="img/down-arrow.png"
+              class="faq-arrow"
+              alt="Toggle Arrow"
+            />
+          </div>
+          <div class="faq-answer">
+            The rental of our function facilities includes access to the event
+            space, tables and chairs, basic audio-visual equipment, and on-site
+            event coordination. Additional services such as catering,
+            decoration, and specialized equipment can be arranged upon request.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            Can I bring my own caterer or decorations?
+            <img
+              src="img/down-arrow.png"
+              class="faq-arrow"
+              alt="Toggle Arrow"
+            />
+          </div>
+          <div class="faq-answer">
+            Yes, you are welcome to bring your own caterer and decorations,
+            although we also offer in-house catering and decoration services. If
+            you choose to bring your own, we recommend coordinating with our
+            events team to ensure everything meets our venue's guidelines and
+            standards.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            Is there parking available for event guests?
+            <img
+              src="img/down-arrow.png"
+              class="faq-arrow"
+              alt="Toggle Arrow"
+            />
+          </div>
+          <div class="faq-answer">
+            Yes, we have ample parking available on-site for event guests. Our
+            parking facilities are conveniently located near the function
+            spaces, making it easy for your guests to access the venue.
+          </div>
+        </div>
+      </section>
+
+      <section class="booking-form">
+        <h2>Book our place for you moments</h2>
+        <form id="tennis-booking-form" novalidate>
+          <div class="form-group">
+            <label for="first-name">First Name *</label>
+            <input type="text" id="first-name" name="first-name" required />
+            <span id="first-name-error" class="error-message"></span>
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name *</label>
+            <input type="text" id="last-name" name="last-name" required />
+            <span id="last-name-error" class="error-message"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required />
+            <span id="email-error" class="error-message"></span>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+              pattern="^\d{10}$"
+            />
+            <span id="phone-error" class="error-message"></span>
+          </div>
+          <div class="form-group">
+            <label for="booking-date">Booking Date *</label>
+            <input type="date" id="booking-date" name="booking-date" required />
+            <span id="booking-date-error" class="error-message"></span>
+          </div>
+          <div class="form-group">
+            <label for="time-from">Time From *</label>
+            <input type="time" id="time-from" name="time-from" required />
+            <span id="time-from-error" class="error-message"></span>
+          </div>
+          <div class="form-group">
+            <label for="time-to">Time To *</label>
+            <input type="time" id="time-to" name="time-to" required />
+            <span id="time-to-error" class="error-message"></span>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-container">
+          <div class="footer-row">
+            <div class="footer-column">
+              <p class="collapsible-header">
+                <a href="about-us.html">About</a>
+                <img src="img/down-arrow.png" alt="arrow" class="arrow-icon" />
+              </p>
+              <ul class="collapsible-content">
+                <li><a href="function-article.html">Functions</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="lawn-bowl-article.html">Bowl</a></li>
+                <li><a href="tennis-article.html">Tennis</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <p><a href="contact-us.html">Contact us</a></p>
+              <ul>
+                <li><a href="contact-us.html">Enquiry</a></li>
+                <li>
+                  <a href="#"
+                    >Ground Floor and Level 1/59 Darby St, Cooks Hill NSW
+                    2300</a
+                  >
+                </li>
+                <li>Call Center</li>
+                <li><a href="tel:+0240910500">(02) 4091 0500</a></li>
+              </ul>
+            </div>
+            <div class="footer-column footer-right">
+              <div>
+                <img class="footer-flag" src="img/flag.webp" alt="Flag 1" />
+                <img class="footer-logo" src="img/logo-color.png" alt="Logo" />
+              </div>
+              <p style="text-align: center; font-size: 12px">
+                We acknowledge the Traditional Custodians of the land on which
+                we work, live, and engage. We pay respect to Elders past and
+                present.
+              </p>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="footer-bottom-content">
+              <p style="font-size: 12px">
+                &copy; 2024 Your Company Name. All rights reserved.
+              </p>
+
+              <div class="social-links">
+                <ul>
+                  <li>
+                    <a href="facebook.com"
+                      ><img
+                        class="social-icon"
+                        src="img/facebook.png"
+                        alt="Facebook"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="x.com"
+                      ><img class="social-icon" src="img/x.png" alt="X" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="instagram.com"
+                      ><img
+                        class="social-icon"
+                        src="img/instagram.png"
+                        alt="Instagram"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="scripts/script.js"></script>
+  <script src="scripts/faq.js"></script>
+  <script src="scripts/booking-form.js"></script>
+</html>
