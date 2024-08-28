@@ -25,7 +25,40 @@
   </head>
   <body>
     <!-- Header -->
-    <?php include 'header.php'; ?>
+    <header>
+      <nav class="header-content">
+        <a href="index.html">
+          <img
+            id="logo-header"
+            src="img/logo-white.png"
+            alt="Peak Performance Sport Club"
+          />
+        </a>
+
+        <div
+          class="hamburger"
+          id="hamburger-menu"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="nav-menu" id="nav-menu" role="menu">
+          <ul>
+            <li><a href="latest-events.html">Our events</a></li>
+            <li><a href="tennis-article.html">Tennis</a></li>
+            <li><a href="lawn-bowl-article.html">Bowl</a></li>
+            <li><a href="function-article.html">Function</a></li>
+          </ul>
+
+          <div class="header-desktop-button">
+            <a href="login.html"><button>Sign up / Login</button></a>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <main class="login-container" role="main">
       <form
