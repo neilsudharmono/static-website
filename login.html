@@ -25,45 +25,13 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <nav class="header-content">
-        <a href="index.html">
-          <img
-            id="logo-header"
-            src="img/logo-white.png"
-            alt="Peak Performance Sport Club"
-          />
-        </a>
+    <?php include 'header.php'; ?>
 
-        <div
-          class="hamburger"
-          id="hamburger-menu"
-          aria-expanded="false"
-          aria-controls="nav-menu"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="nav-menu" id="nav-menu" role="menu">
-          <ul>
-            <li><a href="latest-events.html">Our events</a></li>
-            <li><a href="tennis-article.html">Tennis</a></li>
-            <li><a href="lawn-bowl-article.html">Bowl</a></li>
-            <li><a href="function-article.html">Function</a></li>
-          </ul>
-
-          <div class="header-desktop-button">
-            <a href="login.html"><button>Sign up / Login</button></a>
-          </div>
-        </div>
-      </nav>
-    </header>
     <main class="login-container" role="main">
       <form
         class="login-form"
         id="login-form"
-        action=""
+        action="#"
         method="POST"
         novalidate
       >
@@ -93,11 +61,11 @@
           />
           <span id="password-error" class="error-message"></span>
         </div>
-        <a href="forgot-password.html" class="forgot-password-link"
+        <a href="forgot-password.php" class="forgot-password-link"
           >Forgot your password?</a
         >
         <button type="submit">Sign in</button>
-        <a class="create-account" href="create-account.html"
+        <a class="create-account" href="create-account.php"
           >Don't have an account yet? Sign up now</a
         >
       </form>
@@ -109,20 +77,20 @@
           <div class="footer-row">
             <div class="footer-column">
               <p class="collapsible-header">
-                <a href="about-us.html">About</a>
+                <a href="about-us.php">About</a>
                 <img src="img/down-arrow.png" alt="arrow" class="arrow-icon" />
               </p>
               <ul class="collapsible-content">
-                <li><a href="function-article.html">Functions</a></li>
-                <li><a href="membership.html">Membership</a></li>
-                <li><a href="lawn-bowl-article.html">Bowl</a></li>
-                <li><a href="tennis-article.html">Tennis</a></li>
+                <li><a href="function-article.php">Functions</a></li>
+                <li><a href="membership.php">Membership</a></li>
+                <li><a href="lawn-bowl-article.php">Bowl</a></li>
+                <li><a href="tennis-article.php">Tennis</a></li>
               </ul>
             </div>
             <div class="footer-column">
-              <p><a href="contact-us.html">Contact us</a></p>
+              <p><a href="contact-us.php">Contact us</a></p>
               <ul>
-                <li><a href="contact-us.html">Enquiry</a></li>
+                <li><a href="contact-us.php">Enquiry</a></li>
                 <li>
                   <a href="#"
                     >Ground Floor and Level 1/59 Darby St, Cooks Hill NSW
